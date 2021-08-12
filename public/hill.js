@@ -79,7 +79,6 @@ export class Hill {
     const min = this.stageHeight / 8;
     const max = this.stageHeight - min;
     const cur_height = min + Math.random() * max;
-    console.log(cur_height);
     return cur_height;
   }
 }

@@ -21,8 +21,8 @@ class App {
     //b
     this.totalParticles = 8;
     this.particles = [];
-    this.maxRadius = 700;
-    this.minRadius = 500;
+    this.maxRadius = 1200;
+    this.minRadius = 800;
 
     //h
     this.hills = [

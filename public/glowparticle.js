@@ -7,8 +7,8 @@ export class GlowParticle {
     this.radius = radius;
     this.rgb = rgb;
 
-    this.vx = Math.random() ;
-    this.vy = Math.random() ;
+    this.vx = Math.random() *2;
+    this.vy = Math.random() *2;
 
     this.sinValue = Math.random();
   }
